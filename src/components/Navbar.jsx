@@ -56,7 +56,7 @@ export default function Navbar({ activeSection, onSearch, searchQuery, onShopBoo
                 onClick={() => setSearchFlyoutOpen(!searchFlyoutOpen)}
                 aria-label="Search bookstore titles"
               >
-                <img src="/assets/34d2fe9db9e49f1d95e31c0a1104bf438dd08483.svg" alt="Search" />
+                <img src={`${import.meta.env.BASE_URL}assets/34d2fe9db9e49f1d95e31c0a1104bf438dd08483.svg`} alt="Search" />
               </button>
 
               {/* Shop Books Action Button */}

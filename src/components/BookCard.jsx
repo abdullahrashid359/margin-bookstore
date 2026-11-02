@@ -28,7 +28,7 @@ export default function BookCard({ book, onSelectBook }) {
         >
           <span>View Book</span>
           <img 
-            src="/assets/0b86eec4c60bc1bc20f9f777135d8eeb2ed68e4f.svg" 
+            src={`${import.meta.env.BASE_URL}assets/0b86eec4c60bc1bc20f9f777135d8eeb2ed68e4f.svg`} 
             alt="" 
             aria-hidden="true" 
           />

@@ -136,5 +136,6 @@ npm run preview
 
 ## Environment Variables & Configuration
 
-- **No environment variables required.** The application runs completely in-browser with local assets.
-- Default port is configured in `vite.config.js` (port `3000`).
+- **No external environment variables required.** The application runs completely in-browser with local assets.
+- **Base URL & GitHub Pages Deployment:** Configured with `base: '/margin-bookstore/'` in [vite.config.js](file:///c:/Users/User/Desktop/margin-bookstore/vite.config.js). Image assets dynamically use `import.meta.env.BASE_URL` (e.g. `${import.meta.env.BASE_URL}assets/...`) so they resolve seamlessly both in local development and in GitHub Pages production deployments.
+- Default dev server port is configured in `vite.config.js` (port `3000`).
